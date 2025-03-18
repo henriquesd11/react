@@ -3,6 +3,7 @@ import FirstComponent from "./components/FirstComponent";
 import Images from "./components/Images";
 import Hooks from "./components/Hooks";
 import List from "./components/List";
+import RenderCond from "./components/RenderCond";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
         <Images />
         <Hooks />
         <List />
+        <RenderCond x={5}/>
     </div>
   );
 }
