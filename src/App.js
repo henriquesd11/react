@@ -4,15 +4,17 @@ import Images from "./components/Images";
 import Hooks from "./components/Hooks";
 import List from "./components/List";
 import RenderCond from "./components/RenderCond";
+import Fragment from "./components/Fragment";
 function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
-        <FirstComponent/>
+        <FirstComponent />
         <Images />
         <Hooks />
         <List />
         <RenderCond x={5}/>
+        <Fragment />
     </div>
   );
 }
