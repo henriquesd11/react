@@ -6,6 +6,7 @@ import List from "./components/List";
 import RenderCond from "./components/RenderCond";
 import Fragment from "./components/Fragment";
 import Container from "./components/Container";
+import ContainerFooter from "./components/ContainerFooter";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,9 @@ function App() {
         <Container>
           <h1>Esté é conteudo pelo filho do container</h1>
         </Container>
+        <ContainerFooter>
+            <h1>Este é mais um conteudo para container exemples</h1>
+        </ContainerFooter>
     </div>
   );
 }
